@@ -1,11 +1,11 @@
 package Lesson_2;
 
-public class Main {
+public class Within10and20 {
     public static void main(String[] args) {
-        Main.within10and20(51,10);
+        Within10and20.within10and20(10, 10);
     }
 
-    public static boolean within10and20 (int a, int b){
+    public static boolean within10and20(int a, int b) {
         if (a + b >= 10 && a + b <= 20) {
             System.out.println(true);
             return true;
